@@ -21,6 +21,8 @@ However, this approach has serious limitations:
 
 Despite these issues, the reproducible method offers an **optimistic perspective**:  
 **EEG signals may contain usable information about higher cognitive processes** — under the right conditions.
+The biggest uncertainty of this conclusion is the limitation of the dataset which contains many EEG signals from the same person. 
+The dataset might be considered "easy" because of that, but we should not forget that the dataset of EEG signals of a single person might introduce correlated noise.
 
 Future work should aim to develop models that generalize well **without discarding large portions of the data**. 
 
